@@ -25,9 +25,9 @@ public class Caractere {
         System.out.println("Veuillez saisir une chaîne de caractère:");
         carac = chaine.nextLine();
         pos = carac.length();
-        StringBuilder buffer = new StringBuilder(carac);
-        buffer.setCharAt(pos - 1, 's');
-        carac= buffer.toString();
+        StringBuilder builder = new StringBuilder(carac);
+        builder.setCharAt(pos - 1, 's');
+        carac= builder.toString();
         System.out.println("Voici votre nouvelle chaîne de caractère: " + carac);
 
     }
