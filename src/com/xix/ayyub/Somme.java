@@ -17,6 +17,7 @@ public class Somme {
                 ecrire ("La somme " + somme + " est égal à: " + nb10 + " billet(s) de 10€, " + nb2 + " pièce(s) de 2€, " + nb1 + " pièce(s) de 1€.");
         */
         int somme, reste, nb10, nb2, nb1;
+
         Scanner sm = new Scanner(System.in);
         System.out.println("Veuillez saisir une somme:");
         somme = sm.nextInt();

@@ -15,6 +15,7 @@ public class Main {
             Fin
         */
         float francs, euros;
+
         Scanner fr = new Scanner(System.in);
         System.out.println("Veuillez saisir un montant en Francs :");
         francs = fr.nextFloat();
