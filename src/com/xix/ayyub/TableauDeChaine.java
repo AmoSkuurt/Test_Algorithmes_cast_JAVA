@@ -17,6 +17,7 @@ public class TableauDeChaine {
         tab[0] = "enfant";
         tab[1] = tab[0];
         tab[2] = tab[0];
+        //En plus, l'affichage du tab pour verifier si tout est OK
         System.out.println(tab[0] + " - " + tab[1] + " - " + tab[2]);
     }
 }
