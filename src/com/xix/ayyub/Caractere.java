@@ -10,7 +10,6 @@ public class Caractere {
                    pos: entier;
 
         Debut
-
             str = new Chaine();
             str.lire();
             pos <-- str.longueur();
