@@ -1,4 +1,4 @@
-package com.xix.ayyub;
+package com.xix.ayyub.variables;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

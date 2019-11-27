@@ -1,4 +1,4 @@
-package com.xix.ayyub;
+package com.xix.ayyub.variables;
 
 public class TableauDeChaine {
     public static void main(String[] args){
