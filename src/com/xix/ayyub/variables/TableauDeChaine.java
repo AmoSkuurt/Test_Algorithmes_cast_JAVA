@@ -1,7 +1,8 @@
 package com.xix.ayyub.variables;
 
 public class TableauDeChaine {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         /*
         Algorithme tableau-3-elements-pointent-sur-la-meme-instance-chaine-"enfant"
         variables: tab: tableau[] de chaine;

@@ -1,11 +1,10 @@
 package com.xix.ayyub.variables;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.Scanner;
 
-public class Bissextile {
+import java.util.Date;
+
+public class Bissextile
+{
     /*Lire une Date et afficher si elle est bissextile
     Algorithme remplacer-dernier-car-par-s
     variables: d1: Date;
@@ -30,7 +29,8 @@ public class Bissextile {
     ****Deprecated.****
     As of JDK version 1.1, replaced by Calendar.set(year + 1900, month, date, hrs, min, sec) or GregorianCalendar(year + 1900, month, date, hrs, min, sec).
     */
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Date d1 = new Date();
     }
 }

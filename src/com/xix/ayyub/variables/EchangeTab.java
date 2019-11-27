@@ -3,7 +3,8 @@ package com.xix.ayyub.variables;
 import java.util.Scanner;
 
 public class EchangeTab {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         /*Définir un tableau de 10 réels et échanger le premier et le dernier élément
         Algorithme echanger-premier-element-tableau-dernier-element
         variables: tab10R: tableau[] de réels;

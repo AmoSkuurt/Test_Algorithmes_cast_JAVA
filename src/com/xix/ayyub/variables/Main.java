@@ -3,7 +3,8 @@ package com.xix.ayyub.variables;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         /* Convertir FRANCS F en EUROS €
             Algortihme conversion-francs-euros
             variables: francs, euros: réel;
