@@ -8,6 +8,7 @@ public class Tarif {
 
 
         String[] tarif = {"Vert", "Orange", "Rouge", "Pas assuré"};
+
         int age, nbrAccidents;
 
         Scanner scanner = new Scanner(System.in);

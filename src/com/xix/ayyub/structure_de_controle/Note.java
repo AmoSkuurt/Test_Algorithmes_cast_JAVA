@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Note {
     public static void main(String[] args)
     {
-        /*
-        Algorithme Lire-note-afficher-commentaire-associé
+        /*Algorithme Lire-note-afficher-commentaire-associé
         variable: note: entier;
 
         lire(note);
@@ -27,7 +26,7 @@ public class Note {
             ecrire("très bien !");
         }
         Fin
-         */
+        */
 
         int note;
         Scanner scanner = new Scanner(System.in);
