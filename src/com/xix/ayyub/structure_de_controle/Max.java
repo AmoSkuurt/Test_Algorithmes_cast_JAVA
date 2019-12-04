@@ -9,7 +9,7 @@ public class Max
         /*
         Algorithme Max-de-deux-entiers
         variables: x, y: entier;
-
+o
         Debut
             lire(x);
             lire(y)

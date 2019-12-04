@@ -1,10 +1,7 @@
 package com.xix.ayyub.structure_de_controle;
 
-import java.util.Scanner;
-
 public class Note {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         /*Algorithme Lire-note-afficher-commentaire-associé
         variable: note: entier;
 
@@ -27,27 +24,20 @@ public class Note {
         }
         Fin
         */
+        System.out.println(NoteBulletin(17));
 
-        int note;
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Veuillez saisir votre note: ");
-        note = scanner.nextInt();
-        if (note <= 8)
-        {
+    }
+
+    private static int NoteBulletin(int note) {
+        if (note <= 8) {
             System.out.println("Insuffisant");
-        }
-        else if (note <= 12)
-        {
+        } else if (note <= 12) {
             System.out.println("Moyen");
-        }
-        else if (note <= 16)
-        {
+        } else if (note <= 16) {
             System.out.println("Bien");
-        }
-        else
-        {
+        } else {
             System.out.println("Très bien !");
         }
-
+        return note;
     }
 }
